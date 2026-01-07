@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { trpc } from "@/lib/trpc";
+
 import { Shield, Server, Bug, FileCheck, AlertTriangle, Activity, TrendingUp, TrendingDown } from "lucide-react";
 import { motion } from "framer-motion";
 import ReactECharts from "echarts-for-react";

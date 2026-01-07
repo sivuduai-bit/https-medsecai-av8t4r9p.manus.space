@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { trpc } from "@/lib/trpc";
+
 import { Bug, Search, Filter, TrendingUp, AlertTriangle, CheckCircle, Clock, ExternalLink, Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
 import ReactECharts from "echarts-for-react";

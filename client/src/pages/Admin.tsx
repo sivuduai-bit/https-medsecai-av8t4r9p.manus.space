@@ -6,7 +6,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Switch } from "@/components/ui/switch";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { useAuth } from "@/_core/hooks/useAuth";
+import { useAuth } from "@/contexts/AuthContext";
 import { Settings, Users, Shield, Bot, Bell, Database, Activity, Plus, Edit, Trash2, Key, Lock, Mail, Clock } from "lucide-react";
 import { motion } from "framer-motion";
 import ReactECharts from "echarts-for-react";
